@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OnlyFarm</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">-->
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="background-image: url('static/farmland.jpeg'); background-size: cover; background-position: center">
+
+    <div id="app" class="my-4 mx-auto w-[600px]">
+        <div class="relative w-full max-w-4xl p-8 rounded-lg shadow-lg overflow-hidden z-10 bg-white dark:bg-gray-800">
+            <div class="mb-6 flex items-center justify-between">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Only<span class="font-bold text-green-500">Farm</span> 🌱</h1>
+
+                <div class="flex items-center space-x-4">
+                    <a href="#" target="_blank" rel="noopener noreferrer" title="Twitter">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter" class="w-6 h-6">
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" class="w-6 h-6">
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" title="Facebook">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook" class="w-6 h-6">
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" title="YouTube">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png" alt="YouTube" class="w-6 h-6">
+                    </a>
+                </div>
+            </div>
+
+            <div id="form"></div>
+        </div>
+    </div>
+
+    <script src="static/form.js" type="text/babel"></script>
+    <script>
+    tailwind.config = {
+      darkMode:"off"
+    }
+  </script>
+</body>
+</html>
